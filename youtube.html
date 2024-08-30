@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <img src="icons/hamburger-menu.svg" id="hamburger-menu" alt="">
+            <a href="index.html">
+                <img src="icons/youtube-logo.svg" id="youtube-logo" alt="">
+            </a>
+        </div>
+        <div class="middle-section">
+            <input type="text" name="" id="search-bar" placeholder="Search">
+            <button id="search-button">
+                <img id="search-icon" src="icons/search.svg" alt="">
+                <div class="tooltip">Search</div>
+            </button>
+            <button id="voice-search-button">
+                <img src="icons/voice-search-icon.svg" id="voice-search-icon" alt="">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="buttons-container">
+                <img src="icons/upload.svg" id="upload-icon" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="buttons-container">
+                <img src="icons/youtube-apps.svg" id="youtube-apps-icon" alt="">
+                <div class="tooltip">Youtube Apps</div>
+            </div>
+            <div id="notifications-icon-container" class="buttons-container">
+                <img src="icons/notifications.svg" id="notifications-icon" alt="">
+                <div class="notifications-count">9+</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <a href="https://github.com/VetlaPavanKalyan/">
+                <div class="buttons-container">
+                    <img src="channels/my-channel.jpg" id="current-user-picture" alt="">
+                    <div class="tooltip">My Account</div>
+                </div>
+            </a>
+        </div>
+    </header>
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg" alt="">
+            <div>Home</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.svg" alt="">
+            <div>Explore</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg" alt="">
+            <div>Subscriptions</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.svg" alt="">
+            <div>Originals</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg" alt="">
+            <div>YouTube Music</div>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg" alt="">
+            <div>Library</div>
+        </div>
+    </nav>
+    <main>
+        <section class="video-grid">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/2mTb_bEe8mk?si=Ee15ckNuyOHrhfY7">
+                        <img src="thumbnails/frnds.jpg" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">7:03</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="">
+                            <img class="profile-picture" src="channel-pictures/channels4_profile-1.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" class="video-title-link">
+                                Beach lo gallanthaina yuvakulu
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            <a href="https://www.youtube.com/c/mkbhd" class="video-channel-link">
+                                Abhishek Rafee
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                            3.4M views &#183; 1 day ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/Mtjf8cYwQik?si=S3OMBOuUfJZ7zUmL">
+                        <img src="thumbnails/thumbnail-2.webp" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">12:06</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://youtube.com/@NaaAnveshana?si=vNZIQ5evsbov_iHi">
+                            <img class="profile-picture" src="channel-pictures/channels4_profile-2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://youtu.be/Mtjf8cYwQik?si=S3OMBOuUfJZ7zUmL" class="video-title-link">
+                                Temples of Horus eduf | Kom ombo temple egypt
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            <a href="https://youtube.com/@NaaAnveshana?si=vNZIQ5evsbov_iHi" class="video-channel-link">
+                                Anveshana
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                          475K views &#183; 8 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/T0k6EknWGT4?si=MOe6XFkDB0ABo8so">
+                        <img src="thumbnails/thumbnail-3.webp" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">15:18</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://youtube.com/@301Diaries?si=CB5NscNfoH5oHYH8">
+                            <img class="profile-picture" src="channel-pictures/channel-3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://youtu.be/T0k6EknWGT4?si=MOe6XFkDB0ABo8so" class="video-title-link">
+                                Shades of Prasanth alias Raithu bidda
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            <a href="https://youtube.com/@301Diaries?si=CB5NscNfoH5oHYH8" class="video-channel-link">
+                                Bhargav
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                          285K views &#183; 4 days ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/iuuyMTPTtpw?si=FcqBXlJvg5iHu3M1">
+                        <img src="thumbnails/thumbnail-4.webp" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">36:26</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://youtube.com/@ShanmukhJaswanth?si=M72zd3We6vKPMU7U">
+                            <img class="profile-picture" src="channel-pictures/channel-4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://youtu.be/iuuyMTPTtpw?si=FcqBXlJvg5iHu3M1" class="video-title-link">
+                                301 diaries next roasting Student
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            <a href="https://youtube.com/@ShanmukhJaswanth?si=M72zd3We6vKPMU7U" class="video-channel-link">
+                                Shannu
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                            5.6M views &#183; 2 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/dWrYtr0l_Ps?si=oAG0Jq7wPPXn_6nR">
+                        <img src="thumbnails/thumbnail-5.webp" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">25:21</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://youtube.com/@FilmyMoji?si=_gAtzBteQQMYHWy3">
+                            <img class="profile-picture" src="channel-pictures/channel-5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://youtu.be/dWrYtr0l_Ps?si=oAG0Jq7wPPXn_6nR" class="video-title-link">
+                                Filmymoji videos nachutaaya bro
+                            </a>     
+                        </p>
+                        <p class="video-author">
+                            <a href="https://youtube.com/@FilmyMoji?si=_gAtzBteQQMYHWy3" class="video-channel-link">
+                                Middle Class Madhu
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                            2.2M views &#183; 2 weeks ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/avJ7F-COmMM?si=AYa9l0BP9WI01uWR">
+                        <img src="thumbnails/thumbnail-6.webp" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">4:41</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://youtube.com/@thyview?si=76aw9xm9bR2M9jo6">
+                            <img class="profile-picture" src="channel-pictures/channel-6.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://youtu.be/avJ7F-COmMM?si=AYa9l0BP9WI01uWR" class="video-title-link">
+                                Leaks raja ,Don't repeat it again
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            <a href="https://youtube.com/@thyview?si=76aw9xm9bR2M9jo6" class="video-channel-link">
+                                Bhanu Prakash
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                            3.4M views &#183; 1 day ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y">
+                        <img src="thumbnails/thumbnail-7.webp" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">10:47</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://youtu.be/0xd_N-FDY60?si=bx7Jr21fonUzqxUw">
+                            <img class="profile-picture" src="channel-pictures/channel-7.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://youtu.be/0xd_N-FDY60?si=bx7Jr21fonUzqxUw" class="video-title-link">
+                                Rocket Science from YouTube
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            <a href="https://youtube.com/@telugubadi?si=-V92Ocim585uVdjw" class="video-channel-link">
+                                Anna
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                            6.6M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=lFm4EM1juls">
+                        <img src="thumbnails/thumbnail-8.webp" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">7:12</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://youtu.be/mQTGAZJ90e4?si=5TEUc3BbJNyybfF-">
+                            <img class="profile-picture" src="channel-pictures/channel-8.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://youtu.be/mQTGAZJ90e4?si=5TEUc3BbJNyybfF-" class="video-title-link">
+                                Where u get these Money
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            <a href="https://youtube.com/@Prasadtechintelugu?si=jpzNm5Dylpa6gsIV" class="video-channel-link">
+                                Prasad
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                            3.7M views &#183; 10 months ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc">
+                        <img src="thumbnails/thumbnail-9.webp" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">1:40:29</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://youtu.be/XC8S4k63eCA?si=fxNyUGAO0VOyWyyK ">
+                            <img class="profile-picture" src="channel-pictures/channel-9.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc" class="video-title-link">
+                                Thanks for ENE bro
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            <a href="https://www.youtube.com/c/OFFICIALTHENXSTUDIOS" class="video-channel-link">
+                                Tharun
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                            20M views &#183; 3 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+                        <img src="thumbnails/thumbnail-10.webp" alt="" class="thumbnail" />
+                    </a>    
+                    <div class="video-time">7:53</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://www.youtube.com/user/businessinsider">
+                            <img class="profile-picture" src="channel-pictures/channel-10.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o" class="video-title-link">
+                                How The World's Largest Cruise Ship Makes 30,000 Meals Every Day
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            <a href="https://www.youtube.com/user/businessinsider" class="video-channel-link">
+                                Business Insider
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                            14M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/Q_e7mEBLOa4?si=y8G_f6i8WX-kCrBw">
+                        <img src="thumbnails/thumbnail-11.webp" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">4:10</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://youtube.com/@Ayejude?si=CxuLf6MJIn5Plwey">
+                            <img class="profile-picture" src="channel-pictures/channel-11.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://youtu.be/Q_e7mEBLOa4?si=y8G_f6i8WX-kCrBw" class="video-title-link">
+                                How to wear Shoes without Socks
+                            </a>     
+                        </p>
+                        <p class="video-author">
+                            <a href="https://youtube.com/@Ayejude?si=CxuLf6MJIn5Plwey" class="video-channel-link">
+                                Oye Zood
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                            3M views &#183; 1 year ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <a href="https://youtu.be/tUurEHnjKnk?si=-fJoa9gd9TWv_0Sw">
+                        <img src="thumbnails/thumbnail-12.webp" alt="" class="thumbnail" />
+                    </a>
+                    <div class="video-time">4:51</div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <a href="https://youtube.com/@mass_melody?si=HkqZ2v32JVjA7f_j">
+                            <img class="profile-picture" src="channel-pictures/channel-12.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            <a href="https://youtu.be/tUurEHnjKnk?si=-fJoa9gd9TWv_0Sw" class="video-title-link">
+                                Guide,Editor,Coder,Lyricist,Bookworm
+                            </a>
+                        </p>
+                        <p class="video-author">
+                            <a href="https://youtube.com/@mass_melody?si=HkqZ2v32JVjA7f_j" class="video-channel-link">
+                                Sun Light
+                            </a>
+                        </p>
+                        <p class="video-stats">
+                            12M views &#183; 5 years ago
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
